@@ -38,5 +38,7 @@ document.querySelector('#close-nav-menu').addEventListener('click', function(){
 
 console.log("Different other examples so I can learn")
 console.log("practice Var Let and ...Varialbles");
-
-
+let customer = "sara";
+let balance = 300;
+balance = balance + 200; 
+console.log("hi " + customer + "your new balance is " + balance + "USD");
