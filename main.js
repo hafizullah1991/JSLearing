@@ -42,3 +42,12 @@ let customer = "sara";
 let balance = 300;
 balance = balance + 200; 
 console.log("hi " + customer + "your new balance is " + balance + "USD");
+
+console.log("========Arrays============")
+let numbers = [2,33,4,5,6,6];
+let accountNumber = 'ND,3,4,5,0';
+console.log(numbers[0]);
+let result = accountNumber.slice(0,2);
+console.log(result)
+let newResult = accountNumber.replace("ND"," ")
+console.log(newResult)
